@@ -59,3 +59,15 @@ form {
 .form #submit:hover{
     background: rgba(70, 0, 123, 0.79);
 }
+
+@media only screen and (max-width: 500px) {
+    .form input{
+        width: calc(75px + 20vw);
+    }
+    .form h1{
+        font-size: calc(1em + 2vw);
+    }
+    .logo div img {
+        height: calc(95px + 30vw);
+    }
+}
