@@ -62,12 +62,15 @@ form {
 
 @media only screen and (max-width: 500px) {
     .form input{
-        width: calc(75px + 20vw);
+        width: calc(55px + 50vw);
     }
     .form h1{
         font-size: calc(1em + 2vw);
     }
     .logo div img {
         height: calc(95px + 30vw);
+    }
+    .form {
+        margin: 1vh 4vw;
     }
 }
